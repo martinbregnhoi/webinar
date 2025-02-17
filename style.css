@@ -32,9 +32,6 @@ p{
    
 }
 
-main{
-
-}
 .brand img {
     height: 37px;
 }
@@ -57,7 +54,7 @@ header{
 .utilities div, nav{
     width: 50px;
     align-content: center;
-    text-align: center;
+    text-align:center;
 }
 .kurv{
     background-color: #5073ff;
@@ -70,11 +67,8 @@ header{
     background-color: #ea5045;
 
 }
-.intro{
-   
+.intro{  
     line-height: 1.6;
-  
-
 }
 .uddannelser{
     background-color: #e0e0e0;
