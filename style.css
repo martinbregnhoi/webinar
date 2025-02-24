@@ -1,1 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
+img {
+    width: 100%;
+}
+
+body {
+    background-color: #ededed;
+    color: #233249;
+    font-family:'Franklin Gothic', Arial, sans-serif;
+}
+header {
+    background-color: #233249;
+    color: #fff;
+    height: 65px;
+/* #3 placer elementer på linje*/
+    display:flex;
+    justify-content: space-between;
+      
+}
+/* #1 størrelse på ikoner*/
+.menu-ikon{
+    height: 25px;
+    width:auto;
+}
+.kea-logo{
+    height:20px;
+    width:auto;
+}
+.header-højre img{
+    height:25px;
+width:auto;
+}
+/* #2 bokse i header */
+.header-venstre{
+    display:flex;
+}
+.header-højre{
+    display:flex;
+}
+/* #4 størrelser på bokse i header*/
+nav{
+    width:65px;
+  text-align:center;
+align-content: center;
+}
+.header-højre div{
+    width:65px;
+}
+/* #5 farver på headerbokse og placering af indhold */
+.logo{
+    align-content:center;
+    text-align:center;
+    padding-left: 15px;  
+}
+
+.kurv{
+    background-color: #5073ff;
+    align-content: center;
+        text-align: center;
+}
+.sprog {
+    background-color: #fff;
+color: #ea5045;
+    align-content: center;
+    text-align: center;
+}
+.søg {
+    background-color: #ea5045;
+    align-content: center;
+    text-align: center;
+}
+/* styling af indhold */
+h1{
+    font-size: 36px;
+}
+h2{font-size: 32px;}
+h3{
+    font-size: 24px;
+}
+.sektion-intro{
+    font-size: 24px;
+    line-height: 1.6;
+   
+}
+.sektion-uddannelser{
+    background-color: #e0e0e0;
+}
+.sektion-uddannelser h2{
+    margin-bottom:10px;
+}
+.layout-container{
+    max-width: 1200px;
+    margin:0 auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.layout-container h3{
+    background-color: #fff;
+    padding: 10px;
+}
+/*
+.layout-grid{
+display:grid;
+gap: 30px;
+grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+*/
+/*footer*/
+footer {
+    height: 100px;
+    background-color: #233249;
+    color: #ededed;
+}
